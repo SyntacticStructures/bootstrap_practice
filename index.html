@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Bootstrap Fukin practice</title>
+	<title>Bootstrap practice</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -11,7 +11,51 @@
 </head>
 <body>
 	<div class="container">
+		<!-- navbars -->
 		<div class="row">
+			<div class="col-xs-12"></div>
+		</div>
+		<!-- pill nav -->
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Index</a></li>
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- stacked nav -->
+		<div class="row">
+			<div class="col-xs-6">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Index</a></li>
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+				<!-- tab nav -->
+		<div class="row">
+			<div class="col-xs-12">
+				<ul class="nav nav-tabs nav-justified">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Index</a></li>
+					<li><a href="#">Dashboard</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">cats</a></li>
+							<li><a href="#">dogs</a></li>
+							<li><a href="#">rept-aisles</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<!-- beginning stuff -->
 			<div class="col-xs-12">
 				<h1>I love <small>Cats</small></h1>
